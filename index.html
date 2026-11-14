@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8">
+    <title>個人網頁</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+   
+    <header>
+        <div class="header-star"></div>
+        <div class="header-title">
+            <h1>林裕蓉</h1>
+            <p>中原大學 | 資訊管理學系</p>
+        </div>
+    </header>
+
+    
+    <nav>
+        <a href="#intro">關於我</a>
+        <a href="#skills">專業技能</a>
+        <a href="#intro">自我介紹</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+
+    
+    <div class="main-layout">
+        
+       
+        <aside>
+            <div class="photo-placeholder">
+                <span><img scr="photo.jpg" alt="photo">
+                </span>
+            </div>
+            <div class="photo-caption">個人照片</div>
+            
+            <div class="aside-title">個人基本資料</div>
+            <div class="aside-info">
+                👤 姓名：林裕蓉<br>
+                🎓 學校：中原大學<br>
+                📖 科系：資訊管理學系
+            </div>
+
+            <div class="aside-title">專業技能</div>
+            <div class="skill-pills">
+                <span class="skill-pill">Java</span>
+                <span class="skill-pill">Pythoon</span>
+                <span class="skill-pill">Css</span>
+            </div>
+        </aside>
+
+        
+        <div class="right-content">
+            
+            
+            <section id="intro">
+                <h2>自我介紹</h2>
+                <p>我的個性比較安靜、內斂，喜歡在自己的步調中學習與探索新事物。平時對資訊科技、網頁設計及數位應用有興趣，也樂於透過課程與實作累積不同領域的知識。
+
+                  在課餘時間，我喜歡聽音樂、追星、學習韓文，也喜歡透過閱讀與旅行接觸不同的文化。對我而言，學習不只是吸收知識，更是認識自己、拓展視野的過程。
+                  
+                  未來希望能持續提升自己的專業能力，培養獨立思考與解決問題的能力，並將所學運用在實際生活與工作中，成為一個能夠持續進步的人。</p>
+            </section>
+
+            
+            <section id="skills">
+                <h2>專業技能</h2>
+                <div class="skills-icon-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon-box">💻</div>
+                        <div class="skill-card-text">技術能力</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon-box">📈</div>
+                        <div class="skill-card-text">分析能力</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon-box">💡</div>
+                        <div class="skill-card-text">解決問題</div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon-box">👥</div>
+                        <div class="skill-card-text">團隊合作</div>
+                    </div>
+                </div>
+
+                
+                <div class="skill-bar-container">
+                    <div class="bar-row">
+                        <div class="bar-info"><span>Python</span><span>90%</span></div>
+                        <progress value="80" max="100"></progress>
+                    </div>
+                    <div class="bar-row">
+                        <div class="bar-info"><span>Jave</span><span>80%</span></div>
+                        <progress value="80" max="100"></progress>
+                    </div>
+                    <div class="bar-row">
+                        <div class="bar-info"><span>Css</span><span>85%</span></div>
+                        <progress value="85" max="100"></progress>
+                    </div> 
+                </div>
+            </section>
+
+               
+
+            
+            <section id="contact">
+                <h2>聯絡我</h2>
+                <p style="margin-bottom: 12px;">若有任何課程交流或問題討論，歡迎填寫下列表單與我聯繫：</p>
+                <form method="post" action="mailto:yourname@cycu.edu.tw" enctype="text/plain">
+                    <p style="margin-bottom: 8px;">姓名：<input type="text" name="name" size="25" required></p>
+                    <p style="margin-bottom: 8px;">信箱：<input type="email" name="email" size="25" required></p>
+                    <p style="margin-bottom: 8px;">留言：<textarea name="msg" rows="3" cols="35" placeholder="請輸入訊息..."></textarea></p>
+                    <input type="submit" value="送出訊息">
+                    <input type="reset" value="重設">
+                </form>
+            </section>
+
+        </div>
+    </div>
+
+  
+    <footer>
+        &copy; 2024 YU RONG. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
